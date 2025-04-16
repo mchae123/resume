@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOO 이력서 sample</title>   
+    <link rel="stylesheet" href="index_css.css">     
+</head>
+      <body>
+        <div class="menu-toggle" onclick="toggleMenu()">☰ 메뉴</div>
+        <div class="sidebar">
+          <h3><a href="#basic">기본 정보</a></h3>
+          <ul>
+            <li><a href="#skills" class="">기술 스택</a></li>
+            <li><a href="#career" class="">경력</a></li>
+            <li><a href="#portpolio" class="">포트폴리오</a></li>
+            <li><a href="#education">교육</a></li>
+            <li><a href="#cerificate">수상 및 자격</a></li>
+          </ul>
+        </div>
+      
+        <div class="content">
+          <div class="section" id="basic">
+            <div class="profile">
+              <div>
+                <div class="highlight">문채영 이력서</div>
+                <div class="subinfo">백엔드 개발자</div>
+                <p>이메일: chae0129@m365.dongyang.ac.kr</p>
+              </div>
+              <img src="img/profile.jpg" alt="프로필 사진" class="photo">
+            </div>
+          </div>
+      
+          <div class="section" id="skills">
+            <h2>기술 스택</h2>
+            <p><strong>Front End</strong> : HTML5/CSS, JSP, Flutter, Dart </p>
+            <p><strong>Backt End</strong> : SpringBoot, Java, REST API, JPA </p>
+            <p><strong>시스템(인프라) 엔지니어</strong> : Linux, Arduino, TCP/IP 소켓프로그래밍, AWS</p>
+            <p><strong>AR/VR</strong> : Unity, C#</p>
+            <p><strong>DB</strong> : MySQL </p>
+          </div>
+      
+          <div class="section" id="career">
+            <h2>경력</h2>
+          
+            <!-- 졸업작품 -->
+            <div class="card">
+              <h3>🎓 졸업작품 프로젝트</h3>
+              <p><strong>다문화 가정 아동을 위한 한국어 학습 플랫폼 / 백엔드 개발</strong></p>
+              <p class="date">2025.03 ~ 2025.10</p>
+              <ul>
+                <li>요구사항 분석 및 Database 모델링</li>
+                <li>Google ML Kit 기반 필기 인식 AI 연동</li>
+              </ul>
+            </div>
+          
+            <!-- 게임 추천 사이트 -->
+            <div class="card">
+              <h3>🕹 전공 실습 프로젝트 – 게임 추천 웹사이트 개발</h3>
+              <p class="date">2024.09 ~ 2024.12, 2인 협업</p>
+              <ul>
+                <li>백엔드·프론트 모두 직접 구현 (Steam API 연동)</li>
+                <li>Java Servlet 기반 MVC2 아키텍처, Tomcat 서버 환경 구성</li>
+                <li>JSP + Bootstrap을 이용한 UI 설계</li>
+                <li>MySQL 기반 DB 설계 및 연동</li>
+                <li>기능: 찜하기, 인기순 정렬, 게임 검색, 회원 기능 등</li>
+              </ul>
+              <p><strong>기술 스택</strong><br>
+                Back End: Java (Servlet), MVC2, Tomcat<br>
+                Front End: JSP, HTML5, CSS3, Bootstrap<br>
+                Database: MySQL<br>
+                API 연동: Steam Open API
+              </p>
+            </div>
+          
+            <!-- 식물 관리자 -->
+            <div class="card">
+              <h3>🌿 전공 실습 프로젝트 – 식물 관리자 시스템 개발</h3>
+              <p class="date">2023.05 ~ 2023.06, 2개월</p>
+              <ul>
+                <li>토양 습도 센서 + LCD + 세그먼트 + 버튼을 이용한 식물 관리 시스템</li>
+                <li>습도 실시간 측정 및 물 주기 메시지 출력</li>
+                <li>물 준 횟수 기록 기능(세그먼트), 하드웨어 최적 배치</li>
+              </ul>
+              <p><strong>기술 스택</strong><br>
+                Arduino, C, 토양 습도 센서, LCD(I2C), 7세그먼트, 버튼
+              </p>
+            </div>
+          
+            <!-- 쓰담이 -->
+            <div class="card">
+              <h3>🚛 전공 실습 프로젝트 – 쓰담이: 자율주행 쓰레기 분리수거차</h3>
+              <p class="date">2023.11 ~ 2023.12, 2인 협업</p>
+              <ul>
+                <li>Bluetooth + 컬러 센서를 이용한 자율 주행 경로 설정</li>
+                <li>색상 감지 후 해당 쓰레기통까지 이동 후 서보모터로 배출</li>
+                <li>환경 변화에 따른 센서 튜닝 경험 포함</li>
+              </ul>
+              <p><strong>기술 스택</strong><br>
+                Arduino, C, 서보모터 (SG90), Bluetooth (HC-06), 컬러 센서 (TCS3200), ABOT 자동차
+              </p>
+            </div>
+          
+            <!-- 채팅 프로젝트 -->
+            <div class="card">
+              <h3>💬 전공 실습 </h3>
+              <ul>
+                <li>pThread 기반 채팅 서버 구현</li>
+                <li>Raspberry Pi + Debian Linux 환경에서 개발</li>
+                <li>TCP/IP Socket Programming 사용</li>
+              </ul>
+              <p><strong>기술 스택</strong><br>
+                C, pThread, Raspberry Pi, Linux, Socket Programming
+              </p>
+            </div>
+          </div>
+          
+      
+          <div class="section" id="portpolio">
+              <h2>포트폴리오</h2>
+              <p><strong>졸업 작품 URL</strong> </p>
+              <div class="url-box">
+                https://github.com/SJHawa/AIHan
+              </div>
+          </div>
+      
+          <div class="section" id="education">
+              <h2>교육</h2>
+              <p><strong>선유고등학교</strong> - (2019.03-2022.2)</p>
+              <p><strong>동양미래대학교</strong> - 컴퓨터소프트웨어공학과 (2023.03-2026.2)</p>
+          </div>
+      
+        </div>
+      
+        <script>
+          const sections = document.querySelectorAll('.section');
+          const navLinks = document.querySelectorAll('.sidebar ul li a');
+          const content = document.querySelector('.content');
+      
+          content.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+              const sectionTop = section.offsetTop;
+              const sectionHeight = section.clientHeight;
+              if (content.scrollTop >= sectionTop - 100) {
+                current = section.getAttribute('id');
+              }
+            });
+      
+            navLinks.forEach(link => {
+              link.classList.remove('active');
+              if (link.getAttribute('href').includes(current)) {
+                link.classList.add('active');
+              }
+            });
+          });
+      
+          function toggleMenu() {
+            document.querySelector('.sidebar').classList.toggle('open');
+          }
+        </script>
+      
+      
+      </body>      
+</html>
